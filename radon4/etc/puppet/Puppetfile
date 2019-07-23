@@ -1,0 +1,9 @@
+moduledir '/opt/puppetlabs/puppet/modules'
+
+mod 'puppetlabs-stdlib', '6.0.0'
+mod 'puppet-rabbitmq', '9.0.0'
+mod 'puppet-redis', '4.1.0'
+#mod 'puppetlabs-apt', '1.8.0'
+#mod 'puppet-staging', '0.3.1'
+mod 'puppet-archive', '4.1.0'
+mod 'camptocamp-systemd', '2.6.0'

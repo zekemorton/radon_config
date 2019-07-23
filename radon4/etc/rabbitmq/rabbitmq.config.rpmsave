@@ -1,0 +1,25 @@
+% This file managed by Puppet
+% Template Path: rabbitmq/templates/rabbitmq.config
+[
+  {rabbit, [
+    {loopback_users, [<<"guest">>]},
+    {tcp_listen_options, [
+         {backlog,       128},
+         {nodelay,       true},
+         {linger,        {true, 0}},
+         {exit_on_close, false}
+    ]},
+    {default_user, <<"guest">>},
+    {default_pass, <<"guest">>}
+  ]},
+  {kernel, [
+    
+  ]}
+,
+  {rabbitmq_management, [
+    {listener, [
+      {port, 15672}
+    ]}
+  ]}
+].
+% EOF

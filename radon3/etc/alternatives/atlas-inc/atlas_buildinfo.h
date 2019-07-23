@@ -1,0 +1,31 @@
+#ifndef ATL_INSTINFO_H
+   #define ATL_INSTINFO_H
+
+#define ATL_ARCH "P4E64SSE3"
+#define ATL_INSTFLAGS "-1 0 -a 1 -l 1"
+#define ATL_F2CDEFS "-DAdd_ -DF77_INTEGER=int -DStringSunStyle"
+#define ATL_ARCHDEFS "-DATL_OS_Linux -DATL_ARCH_Corei2 -DATL_CPUMHZ=2258 -DATL_SSE3 -DATL_SSE2 -DATL_SSE1 -DATL_USE64BITS -DATL_GAS_x8664"
+#define ATL_DKCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -fno-schedule-insns2 -msse3 -g -fstack-protector-strong -Wa,--noexecstack -fPIC -m64"
+#define ATL_DKC "/usr/bin/x86_64-redhat-linux-gcc"
+#define ATL_SKCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -fno-schedule-insns2 -msse3 -g -fstack-protector-strong -Wa,--noexecstack -fPIC -m64"
+#define ATL_SKC "/usr/bin/x86_64-redhat-linux-gcc"
+#define ATL_DMCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -fno-schedule-insns2 -msse3 -g -fstack-protector-strong -Wa,--noexecstack -fPIC -m64"
+#define ATL_DMC "/usr/bin/x86_64-redhat-linux-gcc"
+#define ATL_SMCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -fno-schedule-insns2 -msse3 -g -fstack-protector-strong -Wa,--noexecstack -fPIC -m64"
+#define ATL_SMC "/usr/bin/x86_64-redhat-linux-gcc"
+#define ATL_ICCFLAGS "-DL2SIZE=4194304 -I/builddir/build/BUILD/ATLAS/x86_64_base/include -I/builddir/build/BUILD/ATLAS/x86_64_base/..//include -I/builddir/build/BUILD/ATLAS/x86_64_base/..//include/contrib -DAdd_ -DF77_INTEGER=int -DStringSunStyle -DATL_OS_Linux -DATL_ARCH_Corei2 -DATL_CPUMHZ=2258 -DATL_SSE3 -DATL_SSE2 -DATL_SSE1 -DATL_USE64BITS -DATL_GAS_x8664 -m64 -DWALL -DATL_FULL_LAPACK -DATL_NCPU=4 -fomit-frame-pointer -mfpmath=sse -O2 -fno-schedule-insns2 -msse3 -g -fstack-protector-strong -Wa,--noexecstack -fPIC -m64"
+#define ATL_ICC "/usr/bin/x86_64-redhat-linux-gcc"
+#define ATL_F77FLAGS "-O -msse3 -g -fstack-protector-strong -Wa,--noexecstack -fPIC -m64 -frecursive"
+#define ATL_F77 "/usr/bin/gfortran"
+#define ATL_DKCVERS "x86_64-redhat-linux-gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)"
+#define ATL_SKCVERS "x86_64-redhat-linux-gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)"
+#define ATL_DMCVERS "x86_64-redhat-linux-gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)"
+#define ATL_SMCVERS "x86_64-redhat-linux-gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)"
+#define ATL_ICCVERS "x86_64-redhat-linux-gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)"
+#define ATL_F77VERS "GNU Fortran (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)"
+#define ATL_SYSINFO "Linux c1bm.rdu2.centos.org 3.10.0-514.16.1.el7.x86_64 #1 SMP Wed Apr 12 15:04:24 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux"
+#define ATL_DATE    "Thu Aug  3 04:46:47 UTC 2017"
+#define ATL_UNAM    "mockbuild"
+#define ATL_VERS    "3.10.1"
+
+#endif
