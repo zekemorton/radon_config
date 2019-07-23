@@ -25,7 +25,7 @@ cp /conf/radon_config/radon1/tftpboot/pxelinux.cfg/default /tftpboot/pxelinux.cf
 mount /dev/sdc1 /mnt
 
 mkdir /tftpboot/centos7
- p /mnt/images/pxeboot/initrd.img /tftpboot/centos7
+cp /mnt/images/pxeboot/initrd.img /tftpboot/centos7
 cp /mnt/images/pxeboot/vmlinuz /tftpboot/centos7
 
 yum install -y vsftpd
